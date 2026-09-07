@@ -1,0 +1,20 @@
+{
+  "baseUrl": "",
+  "endpoint": "/v1/responses",
+  "apiKey": "",
+  "model": "",
+  "apiType": "openai-responses",
+  "authStyle": "auto",
+  "responsePath": "choices.0.message.content",
+  "sourceLang": "Japanese",
+  "targetLang": "Simplified Chinese",
+  "batchSize": 20,
+  "workers": 4,
+  "timeout": 120,
+  "maxTokens": 16384,
+  "jsonMode": false,
+  "verifyTls": false,
+  "extraHeaders": {},
+  "systemPrompt": "",
+  "temperature": 0.2
+}
